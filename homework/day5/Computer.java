@@ -1,9 +1,9 @@
 package homework.day5;
-
+//미완성
 public class Computer {
     public static void main(String[] args) {
-        Cpu cpu = new Cpu("intel",8000);
-        Power power = new Power("power",5000);
+        Cpu cpu = new Cpu("intel",80020);
+        Power power = new Power("power",50020);
         int perform = cpu.price + power.price;
         if (cpu.hasthis && power.hasthis == true) {
             System.out.println("부팅이 시작됩니다");

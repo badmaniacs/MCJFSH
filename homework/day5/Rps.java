@@ -1,5 +1,5 @@
 package homework.day5;
-
+//미완성
 public class Rps {
     public static void main(String[] args) {        
         Player p1 = new Player("김철수");

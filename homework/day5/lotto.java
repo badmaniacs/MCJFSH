@@ -1,5 +1,5 @@
 package homework.day5;
-
+//미완성
 
 public class lotto {
     public static void main(String[] args) {
