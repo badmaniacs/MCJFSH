@@ -1,5 +1,5 @@
 package homework.day5;
-
+//미완성
 public class Nation {
     static String planet = "earth";
     private String name;
