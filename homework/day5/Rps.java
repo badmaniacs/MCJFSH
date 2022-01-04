@@ -8,10 +8,8 @@ public class Rps {
         p2.ready();
         System.out.printf("%s는 %s를, %s는 %s를 냈습니다",p1.name,p1.hand,p2.name,p2.hand);
 
-        }
-        
-    }
-    
+        }        
+    }   
 
 
 class Player {
@@ -24,16 +22,16 @@ class Player {
     }
 
     void ready() {
-        rps = (int)Math.random()*3+1;
-        switch(rps){
+        this.rps = (int)(Math.random()*3)+1;
+        switch(this.rps){
             case 1 :
-            hand = "가위";
+            this.hand = "가위";
             break;
             case 2 :
-            hand = "바위";
+            this.hand = "바위";
             break;
             case 3 : 
-            hand = "보";
+            this.hand = "보";
             break;
             default:
             
