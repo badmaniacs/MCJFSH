@@ -1,0 +1,112 @@
+ {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch cat",
+            "request": "launch",
+            "mainClass": "baekjoon.one.cat",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch dog",
+            "request": "launch",
+            "mainClass": "baekjoon.one.dog",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch eight",
+            "request": "launch",
+            "mainClass": "baekjoon.one.eight",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch five",
+            "request": "launch",
+            "mainClass": "baekjoon.one.five",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch four",
+            "request": "launch",
+            "mainClass": "baekjoon.one.four",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch nine",
+            "request": "launch",
+            "mainClass": "baekjoon.one.nine",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch one",
+            "request": "launch",
+            "mainClass": "baekjoon.one.one",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch seven",
+            "request": "launch",
+            "mainClass": "baekjoon.one.seven",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch six",
+            "request": "launch",
+            "mainClass": "baekjoon.one.six",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch two",
+            "request": "launch",
+            "mainClass": "baekjoon.one.two",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Computer",
+            "request": "launch",
+            "mainClass": "homework.day5.Computer",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rps",
+            "request": "launch",
+            "mainClass": "homework.day5.Rps",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Time",
+            "request": "launch",
+            "mainClass": "homework.day5.Time",
+            "projectName": "src_759d202c"
+        },
+        {
+            "type": "java",
+            "name": "Launch lotto",
+            "request": "launch",
+            "mainClass": "homework.day5.lotto",
+            "projectName": "src_759d202c"
+        }
+    ]
+}
