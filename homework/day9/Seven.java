@@ -1,6 +1,6 @@
 package homework.day9;
 import java.util.*;
-
+//9번 하다 말았음
 public class Seven {
     public static void main(String[] args) {
         ArrayList<Date> list1 = new ArrayList<Date>();
@@ -14,6 +14,10 @@ public class Seven {
         list1.add(d3);
         list1.get(2).showDate();
         list1.get(2).showTdiffer();
+        int[] arr = new int[list1.size()];
+        for (int i=0;i<list1.size();i++) {
+            arr[i] = list1.get(i).differ;
+        }
 
 
     }
@@ -23,6 +27,7 @@ public class Seven {
 class Date {
     Calendar cal = Calendar.getInstance();
     String Date;
+    int differ;
 
     Date(String type) {
         if (type.equals("d")) {
@@ -43,6 +48,7 @@ class Date {
         System.out.println(Date);
     }
     public void showTdiffer() {
+        differ = (int)cal.getTimeInMillis();
         System.out.println(cal.getTimeInMillis());
 
     }
